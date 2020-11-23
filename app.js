@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Funcionou branch');
+  res.send('Teste heroku automatico');
 });
 
 app.listen(PORT, function () {
